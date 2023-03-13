@@ -16,6 +16,7 @@ client.remove_command('help')
 @client.event
 async def on_ready():
 	print(f"Logged on as {settings['NAME BOT']}")
+	print("Created by TheSkout#8213 (Discord)")
 # Startup End
 
 
@@ -93,3 +94,4 @@ async def stop(ctx):
 
 
 client.run(settings['TOKEN']) # you can paste your token in config.py file, as well as other settings
+# If you need any help with, you can open issue on GitHub, or you can DM me in Discord: TheSkout#8213
